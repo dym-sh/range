@@ -1,7 +1,7 @@
 { "name" : "range-2018.js"
 , "description" : "return an array of Number's, similar to such of a Python's"
 , "keywords" : [ "range", "array" ]
-, "version" : "0.0.4"
+, "version" : "0.0.5"
 , "license" : "MIT"
 , "main" : "index.js"
 
