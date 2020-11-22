@@ -1,0 +1,13 @@
+{ "name" : "range-2018.js"
+, "description" : "JS range( 2018 )"
+, "version" : "0.0.3"
+, "author" : "DYM <re@dym.sh>"
+, "keywords" : [ "range" ]
+, "license" : "MIT"
+, "main" : "index.js"
+, "engines" : { "node" : ">=0.8.0" }
+, "repository" :
+    { "type" : "git"
+    , "url" : "git+https://github.com/noformnocontent/range-2018.js.git"
+    }
+}
