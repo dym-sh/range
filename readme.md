@@ -47,6 +47,7 @@ module.exports = exports = ( cnt_or_start = 0, stop = null, step = 1 ) =>
 
 
 ## mirrors
+- https://npmjs.com/package/range-2018.js
 - https://github.com/dym-sh/range
 - https://gitlab.com/dym-sh/range
 - https://dym.sh/range
