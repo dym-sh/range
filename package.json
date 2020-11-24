@@ -1,9 +1,10 @@
 { "name" : "range-2018.js"
-, "description" : "return an array of Number's, similar to such of a Python's"
+, "description" : "return an array of Numbers, similar to such of a Python's"
 , "keywords" : [ "range", "array" ]
 , "version" : "0.0.6"
 , "license" : "MIT"
 , "main" : "index.js"
+, "exports": "mod.js"
 
 , "author" : "Dym Sohin <re@dym.sh>"
 , "homepage" : "https://dym.sh/range"

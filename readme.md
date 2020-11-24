@@ -1,17 +1,39 @@
 # range
 
-> return an array of Number's, similar to such of a Python's
+> return an array of Numbers, similar to such of a Python's
 
 
-## install and use
+## install and declare
 
+### node.js
 ``` sh
 npm i range-2018.js
 ```
 
+#### v.12 or earlier
 ``` js
 const range = require( 'range-2018.js' )
 ```
+
+#### v.13+
+``` js
+import { range } from 'range-2018.js'
+```
+
+### browser
+install by copying the file, or just copy-paste the [source code](#source-code), i guess
+
+``` js
+import { range } from 'vendor/range/mod.js'
+```
+
+or
+``` html
+<script type='module' src='vendor/range/mod.js'></script>
+```
+
+
+## usage examples
 
 ### range( count )
 > N _integers_ starting at `0`
@@ -37,7 +59,7 @@ const range = require( 'range-2018.js' )
 ``` js
 const ceil_abs = N => Math.ceil( Math.abs( N ) )
 
-module.exports = exports = ( cnt_or_start = 0, stop = null, step = 1 ) =>
+const range = ( cnt_or_start = 0, stop = null, step = 1 ) =>
     ( null === stop )
  && [...Array( cnt_or_start ).keys( )]
 
